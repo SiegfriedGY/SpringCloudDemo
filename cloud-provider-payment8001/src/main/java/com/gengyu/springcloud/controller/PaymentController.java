@@ -43,13 +43,13 @@ public class PaymentController {
     }
 
     @GetMapping(value = "/payment/get/{id}")
-    public CommonResult select(@PathVariable("id") Long id){
+    public CommonResult<Payment> select(@PathVariable("id") Long id){
         Payment payment = paymentService.getPaymentById(id);
         log.info("======select结果：" + payment);
         if (payment != null) {
-            return new CommonResult(200, "查询成功, serverPort:" + serverPort, payment);
+            return new CommonResult<>(200, "查询成功, serverPort:" + serverPort, payment);
         } else {
-            return new CommonResult(444, "没有对应记录，查询id为:" + id, null);
+            return new CommonResult<>(444, "没有对应记录，查询id为:" + id, null);
         }
     }
 
