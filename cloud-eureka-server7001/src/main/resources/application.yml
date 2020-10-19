@@ -1,0 +1,17 @@
+server:
+  port: 7001
+
+eureka:
+  instance:
+#    hostname: localhost # eureka服务端的实例名称
+  hostname: eureka7001.com
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://eureka7002.com:7002/eureka/
+
+#  server:
+#    enable-self-preservation: false         # 关闭自我保护机制。默认为true
+#    eviction-interval-timer-in-ms: 2000     # 并设置心跳检测时间间隔为2秒
