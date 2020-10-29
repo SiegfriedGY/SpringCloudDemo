@@ -10,11 +10,18 @@ spring:
       name: config
       profile: dev  # 自动拼接成main分支下config-dev.yml的文件
       uri: http://localhost:3344  # 去寻找的config server
+# 增加了消息总线bus之后，相应的rabbitmq配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 
 eureka:
   client:
     service-url:
       defaulZone: http://localhost:7001/eureka
+
 
 # 解决动态刷新问题
 management:

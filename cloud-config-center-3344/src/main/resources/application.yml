@@ -12,8 +12,22 @@ spring:
           search-paths: # 搜索目录
             - springcloud-config
       label: main
+  # 增加了消息总线bus之后，相应的rabbitmq配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
 
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka
+
+# 也是rabbitmq的相关配置，暴露bus刷新配置的端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"  # 这就是运维在修改github上配置文件之后，手动发送post请求刷新时的命令，这里要声明接受
