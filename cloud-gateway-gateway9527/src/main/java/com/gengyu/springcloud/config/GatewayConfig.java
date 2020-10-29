@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class GatewayConfig {
 
+    // Route配置可以使用配置文件，也可以用配置类
     @Bean
     public RouteLocator customizedRouteLocator(RouteLocatorBuilder builder){
         RouteLocatorBuilder.Builder routes = builder.routes();  // 得到的这个routes就相当于配文里的routes

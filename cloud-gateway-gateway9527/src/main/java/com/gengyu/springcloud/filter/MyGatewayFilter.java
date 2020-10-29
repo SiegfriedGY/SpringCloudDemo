@@ -13,6 +13,7 @@ import reactor.core.publisher.Mono;
 @Slf4j
 public class MyGatewayFilter implements GlobalFilter, Ordered {
 
+    // 而如果想自定义过滤器，则必须用类的方式，编码实现。
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
 
