@@ -10,6 +10,13 @@ spring:
     url: jdbc:mysql://localhost:3306/springcloud2020?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
     password: 1234
+  # sleuth & zipkin相关配置starts
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      probability: 1  # 采样率介于0-1之间，若设置为1，则全部采集，但性能损耗
+  # sleuth & zipkin相关配置ends
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
@@ -20,12 +27,12 @@ eureka:
 #    prefer-ip-address: true
   client:
     service-url:
-#      defaultZone: http://localhost:7001/eureka
+#      defaultZone:http://localhost:7001/eureka
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
-    register-with-eureka: true  # 默认即为true
-    fetch-registry: true        # 默认即为true
-  instance:
-    instance-id: payment8002
+      register-with-eureka: true  # 默认即为true
+      fetch-registry: true        # 默认即为true
+      instance:
+        instance-id: payment8002
     prefer-ip-address: true
 #    lease-renewal-interval-in-seconds: 1
 #    lease-expiration-duration-in-seconds: 2

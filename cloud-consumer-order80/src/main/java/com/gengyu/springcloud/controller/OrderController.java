@@ -66,4 +66,13 @@ public class OrderController {
         }
     }
 
+    @GetMapping("/consumer/payment/zipkin")
+    public String paymentZipkin(){
+        log.info("啊啊啊");
+//        return restTemplate.getForObject(PAYMENT_URL+"/payment/zipkin", String.class);
+        // 因为我让8001的这个接口又去调8002的接口（8002也要启动），所以这里不能用微服务名来调。
+        // 且一旦使用restTemplate + IP地址的方式，就不能用@LoadBalanced
+        return restTemplate.getForObject("http://localhost:8001/payment/zipkin", String.class);
+    }
+
 }

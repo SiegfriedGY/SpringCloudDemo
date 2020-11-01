@@ -77,4 +77,10 @@ public class PaymentController {
         }
         return serverPort;
     }
+
+    // 提供一个给8001调的接口
+    @GetMapping("/payment/sleuthTest")
+    public String sleuthTest(){
+        return "--------------This is sleuthTest" + serverPort;
+    }
 }

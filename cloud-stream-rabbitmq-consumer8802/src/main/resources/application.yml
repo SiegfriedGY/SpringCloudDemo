@@ -1,0 +1,35 @@
+server:
+  port: 8802
+
+spring:
+  application:
+    name: cloud-stream-consumer
+  cloud:
+    stream:
+      binders:
+        defaultRabbit:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: localhost
+                port: 5672
+                username: guest
+                password: guest
+      bindings:
+        input:
+          destination: demoExchange
+          content-type: application/json
+          binder: defaultRabbit
+          group: consumerGroupA
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    lease-renewal-interval-in-seconds: 2
+    lease-expiration-duration-in-seconds: 5
+    instance-id: sender-8802.com
+    prefer-ip-address: true
+
+

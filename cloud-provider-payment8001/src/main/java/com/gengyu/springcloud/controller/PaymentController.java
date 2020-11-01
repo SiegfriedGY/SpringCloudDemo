@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -26,6 +27,9 @@ public class PaymentController {
 
     @Resource
     private DiscoveryClient discoveryClient;
+
+    @Autowired
+    private RestTemplate restTemplate;
 
     @GetMapping("/payment/lb")
     public String getPayment(){
@@ -79,4 +83,11 @@ public class PaymentController {
         }
         return serverPort;
     }
+
+    @GetMapping("/payment/zipkin")
+    public String paymentZipkin(){
+        log.info("========paymentZipkin()");
+        return restTemplate.getForObject("http://localhost:8002/payment/sleuthTest", String.class);
+    }
+
 }
