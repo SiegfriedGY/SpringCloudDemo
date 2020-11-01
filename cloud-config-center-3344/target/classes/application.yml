@@ -30,4 +30,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: "bus-refresh"
+        include: "bus-refresh"  # 这就是运维在修改github上配置文件之后，手动发送post请求刷新时的命令，这里要声明接受
