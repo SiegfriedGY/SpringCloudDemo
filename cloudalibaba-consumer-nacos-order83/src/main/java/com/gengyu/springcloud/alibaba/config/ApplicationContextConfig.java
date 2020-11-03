@@ -1,4 +1,4 @@
-package com.gengyu.springcloud.config;
+package com.gengyu.springcloud.alibaba.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
@@ -10,8 +10,7 @@ public class ApplicationContextConfig {
 
     @Bean
     @LoadBalanced
-    //注意，如果不写这个注解，直接访问consumer，就会报错，无法去找具体的服务，而不只是负载均衡不均衡的问题了！
-    public RestTemplate getRestTemplate(){
+    public RestTemplate restTemplate(){
         return new RestTemplate();
     }
 }

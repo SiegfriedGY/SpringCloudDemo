@@ -20,7 +20,7 @@ import java.util.List;
 public class OrderController {
 
 //    public static final String PAYMENT_URL = "http://localhost:8001";
-    public static final String PAYMENT_URL = "http://cloud-payment-service";    //大写也可以
+    public static final String PAYMENT_URL = "http://cloud-payment-service";    //大小写均可
     // 注意：一旦写成服务名称（不管底下有一个服务还是多个服务），就必须启用restTemplate的@LoadBalanced功能，否则无法找到服务，会报错！！
 
     @Autowired
