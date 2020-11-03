@@ -1,0 +1,5 @@
+# 全局的配置放在bootstrap.yml里，优先局高于局部的配置文件application.yml
+
+spring:
+  profiles:
+    active: dev
