@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: nacos-config-client # 这里怎么是client，不是应该相当于config server吗？
+    name: nacos-config-client # 这里怎么是client，不是应该相当于config server吗？ —— 因为这里不再需要 server，nacos本身就是一个server，直接上client即可。
   cloud:
     nacos:
       discovery:
@@ -11,7 +11,13 @@ spring:
       config:
         server-addr: localhost:8848   # nacos作为配置中心
         file-extension: yaml    # 指定yaml格式的配置
+        # 关于GROUP的配置：
+#        group: DEV_GROUP
+#        group: TEST_GROUP
+        # 关于Namespace的配置
+        namespace: 1e714b77-501a-4975-9b94-789a9e907c4d
+
 
 # 文件名拼接规则 from 官网：
 # ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
-# nacos-config-client-dev.yaml
+# nacos-config-client-dev.yaml  —— 注意对于Nacos而言，不能写yml，只能严格写yaml！！

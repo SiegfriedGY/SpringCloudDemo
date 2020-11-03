@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485a73f1-c18c-4f90-8ff2-d58b53b35e78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/gengyu/springcloud/alibaba/NacosConfigClientMain3377.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/gengyu/springcloud/alibaba/controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-client-3366/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3366/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/target/classes/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +231,7 @@
       <workItem from="1603792579271" duration="30469000" />
       <workItem from="1603956547356" duration="14714000" />
       <workItem from="1604198885243" duration="22127000" />
-      <workItem from="1604396125473" duration="11281000" />
+      <workItem from="1604396125473" duration="14043000" />
     </task>
     <servers />
   </component>
@@ -273,38 +270,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1140" y="254" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604397666548" />
-    <state width="1529" height="444" key="GridCell.Tab.0.bottom" timestamp="1604417378140">
+    <state width="1529" height="255" key="GridCell.Tab.0.bottom" timestamp="1604421489359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1529" height="444" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604417378140" />
-    <state width="1529" height="444" key="GridCell.Tab.0.center" timestamp="1604417378140">
+    <state width="1529" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604421489359" />
+    <state width="1529" height="255" key="GridCell.Tab.0.center" timestamp="1604421489359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1529" height="444" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604417378140" />
-    <state width="1529" height="444" key="GridCell.Tab.0.left" timestamp="1604417378140">
+    <state width="1529" height="255" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604421489359" />
+    <state width="1529" height="255" key="GridCell.Tab.0.left" timestamp="1604421489359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1529" height="444" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604417378140" />
-    <state width="1529" height="444" key="GridCell.Tab.0.right" timestamp="1604417378140">
+    <state width="1529" height="255" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604421489359" />
+    <state width="1529" height="255" key="GridCell.Tab.0.right" timestamp="1604421489359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1529" height="444" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604417378140" />
-    <state width="1529" height="444" key="GridCell.Tab.1.bottom" timestamp="1604417378140">
+    <state width="1529" height="255" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604421489359" />
+    <state width="1529" height="255" key="GridCell.Tab.1.bottom" timestamp="1604421489359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1529" height="444" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604417378140" />
-    <state width="1529" height="444" key="GridCell.Tab.1.center" timestamp="1604417378140">
+    <state width="1529" height="255" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604421489359" />
+    <state width="1529" height="255" key="GridCell.Tab.1.center" timestamp="1604421489359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1529" height="444" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604417378140" />
-    <state width="1529" height="444" key="GridCell.Tab.1.left" timestamp="1604417378140">
+    <state width="1529" height="255" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604421489359" />
+    <state width="1529" height="255" key="GridCell.Tab.1.left" timestamp="1604421489359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1529" height="444" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604417378140" />
-    <state width="1529" height="444" key="GridCell.Tab.1.right" timestamp="1604417378140">
+    <state width="1529" height="255" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604421489359" />
+    <state width="1529" height="255" key="GridCell.Tab.1.right" timestamp="1604421489359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1529" height="444" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604417378140" />
+    <state width="1529" height="255" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604421489359" />
     <state x="988" y="175" key="Registry" timestamp="1602687793369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

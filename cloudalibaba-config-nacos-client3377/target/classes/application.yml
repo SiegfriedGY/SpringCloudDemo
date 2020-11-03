@@ -3,3 +3,5 @@
 spring:
   profiles:
     active: dev
+#    active: test
+#    active: info
