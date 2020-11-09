@@ -13,6 +13,7 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 
 import javax.sql.DataSource;
 
+// 使用Seata对数据源进行代理
 @Configuration
 public class DataSourceProxyConfig {
 
