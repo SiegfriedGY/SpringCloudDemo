@@ -2,7 +2,7 @@ package com.gengyu.springcloud.service;
 
 import org.springframework.stereotype.Component;
 
-@Component
+@Component // 注意这里千万别忘了！
 public class OrderFallbackService implements OrderHystrixService {
 
     @Override

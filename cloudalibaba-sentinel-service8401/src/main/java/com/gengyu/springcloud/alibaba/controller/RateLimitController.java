@@ -2,6 +2,7 @@ package com.gengyu.springcloud.alibaba.controller;
 
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
+import com.gengyu.springcloud.alibaba.myHandler.CustomizedBlockHandler;
 import com.gengyu.springcloud.entities.CommonResult;
 import com.gengyu.springcloud.entities.Payment;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -30,7 +31,9 @@ public class RateLimitController {
 
     // customizedBlockHandler
     @GetMapping("/rateLimit/customizedBlockHandler")
-    @SentinelResource(value = "customizedBlockHandler")
+    @SentinelResource(value = "customizedBlockHandler",
+            blockHandlerClass = CustomizedBlockHandler.class,   // 指定自定义fallback类
+            blockHandler = "exceptionHandler2")     // 指定fallback类下的具体方法
     public CommonResult customizedBlockHandler(){
         return new CommonResult(200, "按客户自定义测试OK", new Payment(2020L, "serial_003"));
     }

@@ -10,9 +10,16 @@ spring:
         server-addr: localhost:8848   # 注册到Nacos上
     sentinel:
       transport:
-        dashboard: localhost:8080
+        dashboard: localhost:8080 # Sentinel的默认端口是8080
         port: 8719  # 默认是8719,假如被占用，则依次+1，直到找到未被占用的端口？？——不是默认8080吗，怎么又成了8719了？
-
+        datasource: # 持久化到Nacos的配置
+          ds1:
+            nacos:
+              server-addr: localhost:8848
+              dataId: cloudalibaba-sentinel-service # 要去Nacos里面手写一个叫这个名字的配置
+              groupId: DEFAULT_GROUP
+              data-type: json
+              rule-type: flow
 management:
   endpoints:
     web:

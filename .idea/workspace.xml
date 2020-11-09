@@ -2,11 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485a73f1-c18c-4f90-8ff2-d58b53b35e78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/gengyu/springcloud/alibaba/controller/RateLimitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/gengyu/springcloud/alibaba/myHandler/CustomizedBlockHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/siegfried/springcloud/alibaba/SeataOrderMain2001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/siegfried/springcloud/alibaba/config/DataSourceProxyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/siegfried/springcloud/alibaba/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/siegfried/springcloud/alibaba/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/siegfried/springcloud/alibaba/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/siegfried/springcloud/alibaba/domain/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/siegfried/springcloud/alibaba/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/siegfried/springcloud/alibaba/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/siegfried/springcloud/alibaba/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/siegfried/springcloud/alibaba/service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/siegfried/springcloud/alibaba/service/iml/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/registry.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/gengyu/springcloud/service/OrderFallbackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/gengyu/springcloud/service/OrderFallbackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/gengyu/springcloud/service/OrderHystrixService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/gengyu/springcloud/service/OrderHystrixService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/gengyu/springcloud/alibaba/controller/FlowLimitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/gengyu/springcloud/alibaba/controller/FlowLimitController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/target/classes/com/gengyu/springcloud/alibaba/controller/FlowLimitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/target/classes/com/gengyu/springcloud/alibaba/controller/FlowLimitController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/gengyu/springcloud/alibaba/controller/RateLimitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/gengyu/springcloud/alibaba/controller/RateLimitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/gengyu/springcloud/alibaba/myHandler/CustomizedBlockHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/gengyu/springcloud/alibaba/myHandler/CustomizedBlockHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/target/classes/com/gengyu/springcloud/alibaba/controller/RateLimitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/target/classes/com/gengyu/springcloud/alibaba/controller/RateLimitController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +125,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MainApp8401">
+  <component name="RunManager" selected="Spring Boot.SeataOrderMain2001">
     <configuration name="MainApp8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloudalibaba-sentinel-service8401" />
       <extension name="coverage">
@@ -158,26 +178,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-payment8002" />
+    <configuration name="SeataOrderMain2001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seata-order-service2001" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gengyu.springcloud.*" />
+          <option name="PATTERN" value="com.siegfried.springcloud.alibaba.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gengyu.springcloud.PaymentMain8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.siegfried.springcloud.alibaba.SeataOrderMain2001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SeataOrderMain2001" />
         <item itemvalue="Spring Boot.MainApp8401" />
         <item itemvalue="Spring Boot.NacosConfigClientMain3377" />
         <item itemvalue="Spring Boot.OrderMain83" />
         <item itemvalue="Spring Boot.OrderMain80" />
-        <item itemvalue="Spring Boot.PaymentMain8002" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +205,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.17162967" />
+          <option name="contentProportion" value="0.19057932" />
           <treeState>
             <expand>
               <path>
@@ -232,7 +252,7 @@
       <workItem from="1603792579271" duration="30469000" />
       <workItem from="1603956547356" duration="14714000" />
       <workItem from="1604198885243" duration="22127000" />
-      <workItem from="1604396125473" duration="35575000" />
+      <workItem from="1604396125473" duration="53802000" />
     </task>
     <servers />
   </component>
@@ -247,10 +267,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="595" y="48" key="#OrderMain83_(1)/0.0.1920.1040@0.0.1920.1040" timestamp="1604457363884" />
-    <state x="821" y="174" key="#Project_Structure" timestamp="1604399459453">
+    <state x="821" y="174" key="#Project_Structure" timestamp="1604893917153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="821" y="174" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1604399459453" />
+    <state x="821" y="174" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1604893917153" />
     <state x="595" y="170" key="#ProviderPaymentMain9002" timestamp="1604400169330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -259,10 +279,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="595" y="170" width="744" height="699" key="#ProviderPaymentMain9002_(1)/0.0.1920.1040@0.0.1920.1040" timestamp="1604400360162" />
-    <state x="1230" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1604212313995">
+    <state x="700" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604760742937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1230" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604212313995" />
+    <state x="700" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604760742937" />
+    <state x="1230" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1604897387638">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1230" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604897387638" />
     <state x="1078" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1603121312834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -275,50 +299,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1140" y="254" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604397666548" />
-    <state width="1529" height="384" key="GridCell.Tab.0.bottom" timestamp="1604678420734">
+    <state width="1494" height="362" key="GridCell.Tab.0.bottom" timestamp="1604898278793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1529" height="384" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604678420734" />
-    <state width="1529" height="384" key="GridCell.Tab.0.center" timestamp="1604678420734">
+    <state width="1494" height="362" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604898278793" />
+    <state width="1494" height="362" key="GridCell.Tab.0.center" timestamp="1604898278742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1529" height="384" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604678420734" />
-    <state width="1529" height="384" key="GridCell.Tab.0.left" timestamp="1604678420734">
+    <state width="1494" height="362" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604898278742" />
+    <state width="1494" height="362" key="GridCell.Tab.0.left" timestamp="1604898278691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1529" height="384" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604678420734" />
-    <state width="1529" height="384" key="GridCell.Tab.0.right" timestamp="1604678420734">
+    <state width="1494" height="362" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604898278691" />
+    <state width="1494" height="362" key="GridCell.Tab.0.right" timestamp="1604898278781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1529" height="384" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604678420734" />
-    <state width="1529" height="384" key="GridCell.Tab.1.bottom" timestamp="1604678420735">
+    <state width="1494" height="362" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604898278781" />
+    <state width="1494" height="362" key="GridCell.Tab.1.bottom" timestamp="1604898278806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1529" height="384" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604678420735" />
-    <state width="1529" height="384" key="GridCell.Tab.1.center" timestamp="1604678420734">
+    <state width="1494" height="362" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604898278806" />
+    <state width="1494" height="362" key="GridCell.Tab.1.center" timestamp="1604898278795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1529" height="384" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604678420734" />
-    <state width="1529" height="384" key="GridCell.Tab.1.left" timestamp="1604678420734">
+    <state width="1494" height="362" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604898278795" />
+    <state width="1494" height="362" key="GridCell.Tab.1.left" timestamp="1604898278794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1529" height="384" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604678420734" />
-    <state width="1529" height="384" key="GridCell.Tab.1.right" timestamp="1604678420734">
+    <state width="1494" height="362" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604898278794" />
+    <state width="1494" height="362" key="GridCell.Tab.1.right" timestamp="1604898278797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1529" height="384" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604678420734" />
+    <state width="1494" height="362" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604898278797" />
     <state x="988" y="175" key="Registry" timestamp="1602687793369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="988" y="175" key="Registry/0.0.1920.1040@0.0.1920.1040" timestamp="1602687793369" />
-    <state x="215" y="193" key="SettingsEditor" timestamp="1604588599255">
+    <state x="215" y="193" key="SettingsEditor" timestamp="1604733215766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="215" y="193" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604588599255" />
-    <state x="572" y="250" width="987" height="594" key="new project wizard" timestamp="1604499746167">
+    <state x="215" y="193" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604733215766" />
+    <state x="572" y="250" width="987" height="594" key="new project wizard" timestamp="1604759820668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="572" y="250" width="987" height="594" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1604499746167" />
+    <state x="572" y="250" width="987" height="594" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1604759820668" />
     <state x="1031" y="242" key="run.anything.popup" timestamp="1603093214660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -331,5 +355,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="415" y="307" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1604397667643" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/siegfried/springcloud/alibaba/service/iml/OrderServiceImpl.java</url>
+          <line>22</line>
+          <properties field="accountService" class="com.siegfried.springcloud.alibaba.service.iml.OrderServiceImpl" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

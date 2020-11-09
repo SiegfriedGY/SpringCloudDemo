@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 @Component
 @FeignClient(value = "CLOUD-PROVIDER-HYSTRIX-PAYMENT"
 //        , fallback = OrderFallbackService.class
-        , fallbackFactory = OrderSerivceFallbackFactory.class
+        , fallbackFactory = OrderSerivceFallbackFactory.class   // 这两种方法都可以
 )
 public interface OrderHystrixService {
 
