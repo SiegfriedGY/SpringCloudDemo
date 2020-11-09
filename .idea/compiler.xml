@@ -26,8 +26,10 @@
         <module name="cloud-stream-rabbitmq-provider8801" />
         <module name="cloudalibaba-provider-payment9003" />
         <module name="cloudalibaba-provider-payment9004" />
+        <module name="seata-account-service2003" />
         <module name="cloudalibaba-provider-payment9002" />
         <module name="cloud-providerconsul-payment8006" />
+        <module name="seata-storage-service2002" />
         <module name="cloud-gateway-gateway9527" />
         <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloud-consumer-feign-order80" />

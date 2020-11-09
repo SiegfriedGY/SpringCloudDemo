@@ -1,0 +1,4 @@
+com\gengyu\springcloud\controller\PaymentController.class
+com\gengyu\springcloud\service\PaymentService.class
+com\gengyu\springcloud\config\HystrixDashboardConfig.class
+com\gengyu\springcloud\PaymentHystrixMain8001.class

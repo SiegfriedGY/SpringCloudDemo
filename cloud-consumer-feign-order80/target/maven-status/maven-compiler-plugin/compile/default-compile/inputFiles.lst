@@ -1,0 +1,4 @@
+D:\codes\springcloud2\cloud-consumer-feign-order80\src\main\java\com\gengyu\springcloud\config\FeignConfig.java
+D:\codes\springcloud2\cloud-consumer-feign-order80\src\main\java\com\gengyu\springcloud\OrderFeignMain80.java
+D:\codes\springcloud2\cloud-consumer-feign-order80\src\main\java\com\gengyu\springcloud\service\PaymentFeignService.java
+D:\codes\springcloud2\cloud-consumer-feign-order80\src\main\java\com\gengyu\springcloud\controller\OrderFeignController.java

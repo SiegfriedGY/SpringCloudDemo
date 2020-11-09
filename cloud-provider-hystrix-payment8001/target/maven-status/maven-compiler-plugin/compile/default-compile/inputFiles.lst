@@ -1,0 +1,4 @@
+D:\codes\springcloud2\cloud-provider-hystrix-payment8001\src\main\java\com\gengyu\springcloud\PaymentHystrixMain8001.java
+D:\codes\springcloud2\cloud-provider-hystrix-payment8001\src\main\java\com\gengyu\springcloud\config\HystrixDashboardConfig.java
+D:\codes\springcloud2\cloud-provider-hystrix-payment8001\src\main\java\com\gengyu\springcloud\controller\PaymentController.java
+D:\codes\springcloud2\cloud-provider-hystrix-payment8001\src\main\java\com\gengyu\springcloud\service\PaymentService.java

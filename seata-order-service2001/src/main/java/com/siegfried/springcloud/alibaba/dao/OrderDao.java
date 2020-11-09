@@ -2,7 +2,7 @@ package com.siegfried.springcloud.alibaba.dao;
 
 import com.siegfried.springcloud.alibaba.domain.Order;
 import org.apache.ibatis.annotations.Mapper;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.apache.ibatis.annotations.Param;
 
 @Mapper
 public interface OrderDao {
@@ -11,5 +11,5 @@ public interface OrderDao {
     void create(Order order);
 
     // 修改订单状态 from 0 to 1 (和视频里不一样，视频里两个参数第一个是userId，第二个是status)
-    void finishOrder(@RequestParam("orderId") Long orderId);
+    void finishOrder(@Param("orderId") Long orderId);
 }

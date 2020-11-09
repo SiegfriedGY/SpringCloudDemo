@@ -1,0 +1,4 @@
+com\gengyu\springcloud\controller\OrderFeignController.class
+com\gengyu\springcloud\config\FeignConfig.class
+com\gengyu\springcloud\OrderFeignMain80.class
+com\gengyu\springcloud\service\PaymentFeignService.class

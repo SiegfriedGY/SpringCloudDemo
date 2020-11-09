@@ -1,0 +1,6 @@
+com\gengyu\springcloud\service\OrderHystrixService.class
+com\gengyu\springcloud\controller\OrderHystrixController.class
+com\gengyu\springcloud\service\OrderSerivceFallbackFactory.class
+com\gengyu\springcloud\service\OrderSerivceFallbackFactory$1.class
+com\gengyu\springcloud\OrderHystrixMain80.class
+com\gengyu\springcloud\service\OrderFallbackService.class

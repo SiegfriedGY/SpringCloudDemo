@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.siegfried.springcloud.alibaba.dao.AccountDao">
+
+    <update id="decrease">
+        update t_account
+        set
+            used = used + #{money}, residue = residue-#{money}
+        where
+            user_id = #{userId}
+    </update>
+
+<!--    <resultMap id="baseResultMap" type="com.siegfried.springcloud.alibaba.domain.Order">-->
+<!--        <id column="id" property="id" jdbcType="BIGINT"/>-->
+<!--        <result column="user_id" property="userId" jdbcType="BIGINT"/>-->
+<!--        <result column="product_id" property="productId" jdbcType="BIGINT"/>-->
+<!--        <result column="count" property="count" jdbcType="INTEGER"/>-->
+<!--        <result column="money" property="money" jdbcType="DECIMAL"/>-->
+<!--        <result column="status" property="status" jdbcType="INTEGER"/>-->
+<!--    </resultMap>-->
+</mapper>
