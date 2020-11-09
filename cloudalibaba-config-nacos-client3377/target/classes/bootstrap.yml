@@ -11,7 +11,7 @@ spring:
       config:
         server-addr: localhost:8848   # nacos作为配置中心
         file-extension: yaml    # 指定yaml格式的配置
-        # 关于GROUP的配置：
+        # 关于GROUP的配置(如果不配，就是DEFAULT_GROUP)：
 #        group: DEV_GROUP
 #        group: TEST_GROUP
         # 关于Namespace的配置
