@@ -6,10 +6,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.Resource;
+
 @RestController
 public class StorageController {
 
-    @Autowired
+//    @Autowired
+    @Resource
     private StorageService storageService;
 
     @PostMapping("/storage/decrease")   // 这里视频上写的是@RequestMapping
