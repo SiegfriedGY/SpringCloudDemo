@@ -3,8 +3,10 @@ package com.siegfried.springcloud.alibaba.dao;
 import com.siegfried.springcloud.alibaba.domain.Order;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Component;
 
 @Mapper
+@Component
 public interface OrderDao {
 
     //创建订单
