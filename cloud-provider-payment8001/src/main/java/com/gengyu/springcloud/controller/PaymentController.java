@@ -4,15 +4,19 @@ import com.gengyu.springcloud.entities.CommonResult;
 import com.gengyu.springcloud.entities.Payment;
 import com.gengyu.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
+import org.springframework.util.LinkedMultiValueMap;
+import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 @RestController
@@ -88,6 +92,20 @@ public class PaymentController {
     public String paymentZipkin(){
         log.info("========paymentZipkin()");
         return restTemplate.getForObject("http://localhost:8002/payment/sleuthTest", String.class);
+    }
+
+    @GetMapping("/payment/test")
+    public void test(){
+        MultiValueMap<String, String> map = new LinkedMultiValueMap<>();
+        map.add("aaa", "123");
+        map.add("aaa", "234");
+        map.add("aaa", "345");
+        map.add("bbb", "yyy");
+        Set<String> strings = map.keySet();
+        for (String key : strings) {
+            List<String> values = map.get(key);
+            System.out.println(key+":"+StringUtils.join(values.toArray()," "));
+        }
     }
 
 }

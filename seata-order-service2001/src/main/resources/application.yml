@@ -7,7 +7,7 @@ spring:
   cloud:
     alibaba:
       seata:
-        tx-service-group: siegfried_tx_group  # 在file.conf中service块中指定的组名
+        tx-service-group: siegfried_tx_group  # 在安装目录file.conf中service块中指定的组名
     nacos:
       discovery:
         server-addr: localhost:8848

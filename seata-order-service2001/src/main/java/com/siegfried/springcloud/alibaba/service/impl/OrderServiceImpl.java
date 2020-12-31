@@ -24,7 +24,7 @@ public class OrderServiceImpl implements OrderService {
     private AccountService accountService;
 
     @Override
-    @GlobalTransactional(name = "123", rollbackFor = Exception.class)
+    @GlobalTransactional(name = "123", rollbackFor = Exception.class)   // name是自定义的，只要唯一就行
     public void create(Order order) {
 
         // 一调三（调用自己的dao，且调用另外两个Feign Services）
